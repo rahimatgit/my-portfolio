@@ -4,7 +4,7 @@ import Sidebar from "../Pages/Home/Sidebar";
 
 const MainLayout = () => {
     return (
-        <div className="">
+        <div className="bg-slate-900">
             <Sidebar></Sidebar>
         </div>
     );
