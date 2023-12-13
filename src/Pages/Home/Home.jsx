@@ -24,7 +24,7 @@ const Home = () => {
             <div className='' >
                 <img data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" src={image} className=' h-[500px] rounded-full' alt="" />
+                    data-aos-duration="2000" src={image} className=' h-[400px] md:h-[500px] rounded-full' alt="" />
 
             </div>
         </div>

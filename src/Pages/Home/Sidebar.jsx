@@ -18,7 +18,7 @@ const Sidebar = () => {
                         <div className='w-[80%] mx-auto'>
                         <div className="flex-none lg:hidden">
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" color='green' fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </label>
                         </div>
                         <div className="flex-1 px-2 mx-2 text-white">Rahim Monjur</div>
@@ -31,7 +31,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700}
-                                    className='text-white mr-2 '
+                                    className='text-green-400 mr-2 '
                                     >Home</Link></li>
                                 <li><Link
                                     to="about"
@@ -39,7 +39,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-400 mr-2'
                                     >About</Link></li>
                                 <li><Link
                                     to="skills"
@@ -47,7 +47,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-400 mr-2'
                                     >Skills</Link></li>
                                 <li><Link
                                     to="education"
@@ -55,7 +55,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-400 mr-2'
                                     >Education</Link></li>
                                 <li><Link
                                     to="projects"
@@ -63,7 +63,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-400 mr-2'
                                     >Projects</Link></li>
                                 <li><Link
                                     to="contact"
@@ -71,7 +71,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-400 mr-2'
                                     >Contact</Link></li>
                             </ul>
                         </div>
@@ -96,7 +96,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700}
-                                    className='text-white mr-2 '
+                                    className='text-green-600'
                                     >Home</Link></li>
                                 <li><Link
                                     to="about"
@@ -104,7 +104,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-600'
                                     >About</Link></li>
                                 <li><Link
                                     to="skills"
@@ -112,7 +112,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-600'
                                     >Skills</Link></li>
                                 <li><Link
                                     to="education"
@@ -120,7 +120,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-600'
                                     >Education</Link></li>    
                                 <li><Link
                                     to="projects"
@@ -128,7 +128,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-600'
                                     >Projects</Link></li>
                                 <li><Link
                                     to="contact"
@@ -136,7 +136,7 @@ const Sidebar = () => {
                                     smooth={true}
                                     offset={-50}
                                     duration={700} 
-                                    className='text-white mr-2'
+                                    className='text-green-600'
                                     >Contact</Link></li>
                     </ul>
                 </div>
