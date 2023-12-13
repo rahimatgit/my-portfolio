@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import Footer from '../../Components/Footer/Footer';
 
 const Sidebar = () => {
     return (
@@ -28,39 +29,39 @@ const Sidebar = () => {
                                     spy={true}
                                     smooth={true}
                                     offset={-50}
-                                    duration={500}
-                                    className='text-white mr-2'
+                                    duration={700}
+                                    className='text-white mr-2 '
                                     >Home</Link></li>
                                 <li><Link
                                     to="about"
                                     spy={true}
                                     smooth={true}
-                                    offset={50}
-                                    duration={500} 
+                                    offset={-50}
+                                    duration={700} 
                                     className='text-white mr-2'
                                     >About</Link></li>
                                 <li><Link
                                     to="skills"
                                     spy={true}
                                     smooth={true}
-                                    offset={50}
-                                    duration={500} 
+                                    offset={-50}
+                                    duration={700} 
                                     className='text-white mr-2'
                                     >Skills</Link></li>
                                 <li><Link
                                     to="projects"
                                     spy={true}
                                     smooth={true}
-                                    offset={50}
-                                    duration={500} 
+                                    offset={-50}
+                                    duration={700} 
                                     className='text-white mr-2'
                                     >Projects</Link></li>
                                 <li><Link
                                     to="contact"
                                     spy={true}
                                     smooth={true}
-                                    offset={50}
-                                    duration={500} 
+                                    offset={-50}
+                                    duration={700} 
                                     className='text-white mr-2'
                                     >Contact</Link></li>
                             </ul>
@@ -73,13 +74,52 @@ const Sidebar = () => {
                     <Skills></Skills>
                     <Projects></Projects>
                     <Contact></Contact>
+                    <Footer></Footer>
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-base-200">
                         {/* Sidebar content here */}
-                        <li><a>Sidebar Item 1</a></li>
-                        <li><a>Sidebar Item 2</a></li>
+                        <li><Link
+                                    to="home"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={700}
+                                    className='text-white mr-2 '
+                                    >Home</Link></li>
+                                <li><Link
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={700} 
+                                    className='text-white mr-2'
+                                    >About</Link></li>
+                                <li><Link
+                                    to="skills"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={700} 
+                                    className='text-white mr-2'
+                                    >Skills</Link></li>
+                                <li><Link
+                                    to="projects"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={700} 
+                                    className='text-white mr-2'
+                                    >Projects</Link></li>
+                                <li><Link
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={700} 
+                                    className='text-white mr-2'
+                                    >Contact</Link></li>
                     </ul>
                 </div>
             </div>
