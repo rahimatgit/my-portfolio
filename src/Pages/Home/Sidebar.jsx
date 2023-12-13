@@ -5,6 +5,7 @@ import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Footer from '../../Components/Footer/Footer';
+import Education from '../Education/Education ';
 
 const Sidebar = () => {
     return (
@@ -49,6 +50,14 @@ const Sidebar = () => {
                                     className='text-white mr-2'
                                     >Skills</Link></li>
                                 <li><Link
+                                    to="education"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={700} 
+                                    className='text-white mr-2'
+                                    >Education</Link></li>
+                                <li><Link
                                     to="projects"
                                     spy={true}
                                     smooth={true}
@@ -72,6 +81,7 @@ const Sidebar = () => {
                     <Home></Home>
                     <About></About>
                     <Skills></Skills>
+                    <Education></Education>
                     <Projects></Projects>
                     <Contact></Contact>
                     <Footer></Footer>
@@ -104,6 +114,14 @@ const Sidebar = () => {
                                     duration={700} 
                                     className='text-white mr-2'
                                     >Skills</Link></li>
+                                <li><Link
+                                    to="education"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={700} 
+                                    className='text-white mr-2'
+                                    >Education</Link></li>    
                                 <li><Link
                                     to="projects"
                                     spy={true}

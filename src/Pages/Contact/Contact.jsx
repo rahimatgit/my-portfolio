@@ -12,10 +12,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                "service_rsr53yd",
-                "template_mtnl6kr",
+                "service_vhkpvpo",
+                "template_wxojj0o",
                 form.current,
-                "zN1hJrlk5nc2fyjtx"
+                "qRJf7MZHp-MHd2HIh"
             )
             .then(
                 (result) => {
@@ -33,13 +33,15 @@ const Contact = () => {
 
     return (
         <div id="contact" className="my-10 w-4/5 mx-auto">
-            <Title heading="Contact Me"></Title>
+            <Title data-aos="fade-up"
+     data-aos-anchor-placement="center-center" heading="Contact Me"></Title>
             <form
+                data-aos="zoom-in-up"
                 ref={form}
                 onSubmit={sendEmail}
                 className="w-full lg:w-3/5 mx-auto space-y-4 px-3 py-4 card "
             >
-                <div>
+                <div >
                     <label className="label label-text text-white">Name</label>
                     <input
                         type="text"

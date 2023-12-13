@@ -3,7 +3,8 @@ import image from '../../assets/rahim.png';
 
 const About = () => {
     return (
-        <div id="about" className=" ">
+        <div id="about" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <Title heading="About Me"></Title>
             
             <div className="w-[80%] mx-auto flex flex-col md:flex-row justify-center items-center gap-10 shadow-xl ">
